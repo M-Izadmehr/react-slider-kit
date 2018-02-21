@@ -24,21 +24,7 @@ const constants = {
 };
 
 class RangeSlider extends Component {
-    static defaultProps = {
-        min: 0,
-        max: 100,
-        step: 1,
-        value: 0,
-        chartLength: 200,
-        chartTooltip: false,
-        prefix: '',
-        postfix: '',
 
-        tooltip: 'always',
-        labels: [],
-        handleLabel: '',
-        orientation: 'horizontal',
-    };
 
     constructor(props) {
         super(props);
@@ -223,7 +209,21 @@ class RangeSlider extends Component {
         )
     }
 }
+RangeSlider.defaultProps = {
+    min: 0,
+    max: 100,
+    step: 1,
+    value: 0,
+    chartLength: 200,
+    chartTooltip: false,
+    prefix: '',
+    postfix: '',
 
+    tooltip: 'always',
+    labels: [],
+    handleLabel: '',
+    orientation: 'horizontal',
+};
 RangeSlider.propTypes = {
     chartData: propTypes.array,
     min: propTypes.number,

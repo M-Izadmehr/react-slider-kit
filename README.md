@@ -6,7 +6,7 @@ react-slider-kit is going to be a comprehensive solution to slider feature in re
 This slider components is going to include:
 
   - 1D and 2D sliders
-  - Single and range sliders
+  - Single and range sliders (`in progress`)
   - Horizontal and vertical sliders
 
 -------------

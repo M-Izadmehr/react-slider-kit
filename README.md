@@ -1,7 +1,4 @@
 # react-slider-kit
-react-slider-kit is going to be a comprehensive solution to slider feature in react [https://m-izadmehr.github.io/react-slider-kit/](https://m-izadmehr.github.io/react-slider-kit/).
-
-#
 [![N|Solid](https://m-izadmehr.github.io/react-slider-kit/assets/logo.jpg?style=centerme)](https://github.com/M-Izadmehr/react-slider-kit)
 
 react-slider-kit is going to be a comprehensive solution to slider feature in react. This component was originally inspired by dribble concept design [The Range Slider Component](https://dribbble.com/shots/3336283-The-Range-Slider-Component). 

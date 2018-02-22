@@ -213,16 +213,16 @@ RangeSlider.defaultProps = {
     min: 0,
     max: 100,
     step: 1,
-    value: 0,
+    start: 0,
     chartLength: 200,
-    chartTooltip: false,
     prefix: '',
     postfix: '',
+    sticky:false,
 
     tooltip: 'always',
     labels: [],
-    handleLabel: '',
     orientation: 'horizontal',
+    chartTooltip: false,
 };
 RangeSlider.propTypes = {
     chartData: propTypes.array,
